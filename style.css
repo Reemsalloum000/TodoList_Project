@@ -1,0 +1,67 @@
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, rgba(142, 68, 173, 0.7), rgba(52, 152, 219, 0.7)), 
+                  url('https://source.unsplash.com/1920x1080/?nature,abstract');
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+      color: rgb(255, 255, 255); /* لون النص */
+    }
+    .container {
+      max-width: 500px;
+      margin: 60px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9); /* لون خلفية شفافة للمحتوى */
+      background-color: blueviolet;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    .intro {
+      text-align: center;
+      margin: 60px auto 20px auto;
+      padding: 8px;
+      max-width: 400px;
+      background: rgba(255, 255, 255, 0.8); /* خلفية شفافة */
+      border-radius: 10px; /* زوايا دائرية */
+      font-size: 10px; /* حجم النص */
+      color: #333; /* لون النص */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ظل */
+      font-weight: bold;
+    }
+    #taskInput {
+      border: none;
+      border-radius: 10px 10px 10px 10px;
+      width: 40%;
+      padding: 10px;
+      margin-right: 10px;
+    }
+    .container .add-btn {
+      padding: 8px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .container .add-btn:hover {
+      background-color: rgb(72, 72, 72);
+      color: white;
+    }
+  
+  li {
+    padding: 10px;
+    margin: 10px0 ;
+    background: linear-gradient(to right , #6a11cb , #a47aae);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: 'Times New Roman', Times, serif;
+  }
